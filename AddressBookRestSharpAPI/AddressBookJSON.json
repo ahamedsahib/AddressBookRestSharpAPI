@@ -23,17 +23,6 @@
       "EmailId": "pooj@amil.com"
     },
     {
-      "id": 3,
-      "FirstName": "Ronaldo",
-      "LastName": "Cr",
-      "PhoneNumber": 2587567890,
-      "Address": "Egmore",
-      "City": "chennai",
-      "State": "TN",
-      "ZipCode": 668456,
-      "EmailId": "cr7@asf.com"
-    },
-    {
       "FirstName": "Lionel",
       "LastName": "Messi",
       "PhoneNumber": 1234509876,
@@ -47,10 +36,10 @@
     {
       "FirstName": "Andres",
       "LastName": "Iniesta",
-      "PhoneNumber": 908709876,
-      "Address": "Egmore",
-      "City": "chennai",
-      "State": "TN",
+      "PhoneNumber": 787289876,
+      "Address": "nagdevistreet",
+      "City": "Mumbai",
+      "State": "Maharastra",
       "ZipCode": 852963,
       "EmailId": "adini6@gmail.com",
       "id": 5
