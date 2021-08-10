@@ -1,0 +1,48 @@
+﻿{
+  "persons": [
+    {
+      "id": 1,
+      "FirstName": "Ahamed",
+      "LastName": "Sahib",
+      "PhoneNumber": 2354367890,
+      "Address": "Broadway",
+      "City": "chennai",
+      "State": "TN",
+      "ZipCode":600001,
+      "EmailId": "asd@gmail.com"
+    },
+    {
+      "id": 2,
+      "FirstName": "Pooja",
+      "LastName": "Sushmitha",
+      "PhoneNumber": 8676557890,
+      "Address": "Adambakkam",
+      "City": "chennai",
+      "State": "TN",
+      "ZipCode": 700066,
+      "EmailId": "pooj@amil.com"
+    },
+    {
+      "id": 3,
+      "FirstName": "Ronaldo",
+      "LastName": "Cr",
+      "PhoneNumber": 2587567890,
+      "Address": "Egmore",
+      "City": "chennai",
+      "State": "TN",
+      "ZipCode": 668456,
+      "EmailId": "cr7@asf.com"
+    },
+    {
+      "id": 4,
+      "FirstName": "Lionel",
+      "LastName": "Messi",
+      "PhoneNumber": 1234509876,
+      "Address": "Parrys",
+      "City": "chennai",
+      "State": "TN",
+      "ZipCode": 852963,
+      "EmailId": "lm10@mail.com"
+    }
+  ]
+}
