@@ -187,6 +187,33 @@ namespace AddressBookRestSharpTestProject
                 Console.WriteLine(ex.Message);
             }
         }
+        /// <summary>
+        /// test method to delete Contact based on id
+        /// </summary>
+        [TestMethod]
+        public void TestMethodForDeleteContact()
+        {
+            try
+            {
+                //Setting rest request to url by using delete method 
+                RestRequest request = new RestRequest("/persons/3", Method.DELETE);
+
+                //execute the request
+                IRestResponse response = client.Execute(request);
+
+                //Check by gettting all person details
+                IRestResponse restResponse = GetAllPersons();
+                //convert json object to person object
+                var res = JsonConvert.DeserializeObject<List<Person>>(restResponse.Content);
+
+                //Checking the response statuscode 200-ok
+                Assert.AreEqual(HttpStatusCode.OK, restResponse.StatusCode);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
     }
 
 }
